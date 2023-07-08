@@ -141,7 +141,7 @@ nav a {
 }
 
 .p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: rgb(58, 54, 54);
 }
@@ -181,6 +181,8 @@ nav a {
     margin-bottom: 90px;
 }
 
+
+
 .skill-des {
     text-align: left;
 }
@@ -189,8 +191,10 @@ nav a {
     color: var(#474747);
     font-size: 30px;
     font-weight: 700;
-
 }
-.res{
+
+.res {
     display: flex;
+    margin: 0 255px;
+    gap: 70px;
 }
