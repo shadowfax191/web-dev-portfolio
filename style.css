@@ -195,6 +195,18 @@ nav a {
 
 .res {
     display: flex;
-    margin: 0 255px;
+    margin: 0 230px;
     gap: 70px;
+}
+.but{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.fot{
+    display: flex;
+    gap: 100px;
+height: 780px;
+background: #FFF8F3;
+padding: 130px 230px;
 }
