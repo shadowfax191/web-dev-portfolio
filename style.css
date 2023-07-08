@@ -206,7 +206,17 @@ nav a {
 .fot{
     display: flex;
     gap: 100px;
-height: 780px;
 background: #FFF8F3;
 padding: 130px 230px;
+}
+.footer{
+    width: 50%;
+}
+.cl{
+    margin-right: 24px;
+}
+
+.contact  input,textarea {
+    display: block;
+    margin-bottom: 25px;
 }
