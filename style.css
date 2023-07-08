@@ -1,155 +1,196 @@
-
 /* font styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /* nav */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 200px;
+    margin: 0 200px;
 }
-.ntitle{
+
+.ntitle {
     color: #181818;
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 }
-.ocolor{
+
+.ocolor {
     color: #FD6E0A;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #181818;
 }
-.btn{
+
+.btn {
     border-radius: 5px;
-    background-color:  #FD6E0A;
+    background-color: #FD6E0A;
     border: 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 }
-.header{
-    background-color: #FFF8F3;;
+
+.header {
+    background-color: #FFF8F3;
+    ;
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.content{
+
+.content {
     max-width: 800px;
 }
-.pic{
+
+.pic {
     width: 500px;
 }
-.info{
+
+.info {
     font-size: 45px;
     margin-bottom: 0;
     color: rgb(59, 58, 57);
 }
-.info-1{
+
+.info-1 {
     color: var(--dark-01, #181818);
-font-size: 85px;
-font-weight: 700;
-margin-top: 5px;
-margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
-.p{
+
+.p {
     font-size: 18px;
     color: rgb(75, 65, 65);
     padding-bottom: 20px;
 }
-.me{
+
+.me {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
-.ab{
+
+.ab {
     border-radius: 10px;
-    background: #f7ece4;
+    background: #FFF8F3;
     margin: 150px 230px;
     padding: 80px 150px;
     text-align: center;
-    
+    box-shadow: 1px 6px 50px 0px rgba(216, 138, 21, 0.397);
+
 }
-.data{
+
+.data {
     color: var(--dark-01, #181818);
-font-size: 35px;
-font-weight: 700;
-text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
 }
-.d{
+
+.d {
     color: var(--dark-03, #757575);
-text-align: center;
-color: var(--dark-03, #757575);
-text-align: center;
-font-family: Open Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.me{
+
+.me {
     color: #757575;
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.p{
+
+.p {
     font-size: 20px;
     font-weight: bold;
     color: rgb(58, 54, 54);
 }
-.n{
+
+.n {
     padding: 30px 300px;
     text-align: center;
     color: var(--dark-03, #757575);
-text-align: center;
-color: var(--dark-03, #757575);
-text-align: center;
-font-family: Open Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.skill-con{
+
+.skill-con {
     margin: 40px 230px;
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
-.skill{
-     padding: 24px;
-     
-     text-align: center;
-    
+
+.skill {
+    padding: 30px;
+    gap: 24px;
+    text-align: center;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 1px 6px 50px 0px rgba(216, 138, 21, 0.397);
+    margin-bottom: 90px;
+}
+
+.skill-des {
+    text-align: left;
+}
+
+.res-title {
+    color: var(#474747);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.res{
+    display: flex;
 }
